@@ -159,3 +159,14 @@ footer{
 
 
 }
+
+
+@media (min-width: 700px) {
+    :root {
+        --bd-url: url(./assests/bg-desktop.jpg);
+    }
+
+    .light {
+        --bg-url: url(./assests/bg-desktop-light.jpg);
+    }
+}
